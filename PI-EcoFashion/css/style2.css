@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: #1c1429;
+    font-family:'Bebas Neue', sans-serif;
+} 
+ul {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2C213F;
+    align-items: center;
+}
+
+li {
+    color: white;
+    font-size: 25px;
+    list-style-type: none; 
+}
+a:hover , a.active {
+    color: #b3fb06
+}
+a { color: white;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+.logo {
+    display: block;
+    text-align: center;
+}
+.produtos{
+    background-color: #2C213F;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.certo {
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.lixeira{
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
