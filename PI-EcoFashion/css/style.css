@@ -1,4 +1,10 @@
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}body{
+    background-color: #1c1429;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -6,7 +12,33 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+ul {
+    font-family:'Bebas Neue', sans-serif;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2C213F;            
+    align-items: center;
+    margin-bottom: 150px;
+}
+nav {
+    width: 100%;
+}
+li {
+    color: white;
+    font-size: 25px;
+    list-style-type: none; 
+}
+a:hover , a.active {
+    color: #b3fb06
+}
+a { color: white;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
 .slider{
     margin: 0 auto;
     width: 800px;
