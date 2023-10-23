@@ -2,212 +2,117 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-}body{
+    box-sizing: border-box;
+}
+
+body {
     background-color: #1c1429;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
 }
-.frete{
+
+.frete {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border: 10px solid #181818;
-    width:100% ;
-    right:0.5%;
-    bottom: 720px;
+    width: 100%;
     position: fixed;
     background-color: #181818;
     height: 15px;
-    top: 0px;
+    top: 0;
     font-size: 25px;
     color: #fff;
 }
+
 .container {
-    max-width:1200px
+    max-width: 1200px;
+    margin: 0 auto;
 }
-#verde{
+
+#verde {
     color: #B3FB06;
     text-align: center;
-    font-family:'Bebas Neue', sans-serif;
 }
 
 ul {
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     height: 60px;
     display: flex;
     justify-content: space-around;
-    background-color: #2C213F;            
+    background-color: #2C213F;
     align-items: center;
     margin-bottom: 150px;
 }
 
-body {
-    background-color: #1c1429;
-    font-family:'Bebas Neue', sans-serif;
-} 
-
-
 header input {
     display: flex;
-    position: relative;
     height: 50px;
     flex: 1;
-    bottom: 140px;
     border-radius: 10px;
-    right: -300px;
-    width:400px;
+    width: 400px;
 }
-.lupa{
+
+.lupa {
     position: relative;
     margin-top: 105px;
     right: 80px;
-   
 }
-.usuario{
+
+.usuario {
     position: relative;
     right: -800px;
     bottom: 325px;
 }
-.carrinho{
+
+.carrinho {
     position: relative;
     bottom: 60px;
     left: 230px;
 }
-#perfil{
+
+#perfil {
     display: flex;
     flex-direction: column;
     color: #fff;
     position: relative;
-    height: 1px;
     word-wrap: break-word;
     bottom: 50px;
     left: 80px;
 }
 
-ul {
+ul.navbar {
     height: 60px;
     display: flex;
     justify-content: space-around;
     background-color: #2C213F;
     align-items: center;
 }
-li {
+
+ul.navbar li {
     color: white;
     font-size: 25px;
-    list-style-type: none; 
+    list-style-type: none;
 }
-a:hover , a.active {
-    color: #b3fb06
+
+ul.navbar a:hover,
+ul.navbar a.active {
+    color: #b3fb06;
 }
-a { color: white;
+
+ul.navbar a {
+    color: white;
     text-transform: uppercase;
-    text-decoration: none; 
+    text-decoration: none;
 }
+
 .logo {
     display: block;
     text-align: center;
-}
-
-li {
-    color: white;
-    font-size: 25px;
-    list-style-type: none; 
-}
-a:hover , a.active {
-    color: #b3fb06
-}
-a { color: white;
-    text-transform: uppercase;
-    text-decoration: none; 
-}
-
-.slider{
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
-}
-.slides{
-    width:400% ;
-    height: 340px;
-    display: flex;
-}
-.slides input{
-    display: none;
-}
-.slide{
-    width: 25%;
-    position: relative;
-    transition: 2s;
-}
-.slide img{
-  width: 800px;
-}
-.manual-navigation{
-    position: absolute;
-    width: 800px;
-    margin-top: 370px;
-    display: flex;
-    justify-content: center;
-}
-.manual-btn{
-    border: 2px solid #fff;
-    padding: 4px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-.manual-btn:not(:last-child){
-    margin-right: 10px;
-}
-.manual-btn:hover{
-    background-color: #fff;
-}
-#radio1:checked ~ .first {
-    margin-left: 0;
-}
-#radio2:checked ~ .first {
-    margin-left: -25%;
-}
-#radio3:checked ~ .first {
-    margin-left: -50%;
-}
-#radio4:checked ~ .first {
-    margin-left: -75%;
-}
-
-.navigation-auto div{
-    border: 2px solid #20a6ff;
-    padding: 4px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-.navigation-auto{
-    position: absolute;
-    width: 800px;
-    margin-top: 370px;
-    display: flex;
-    justify-content: center;
-
-}
-.navigation-auto div:not(:last-child){
-    margin-right: 10px;
-}
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color:#fff ;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color:#fff ;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color:#fff ;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color:#fff ;
 }
