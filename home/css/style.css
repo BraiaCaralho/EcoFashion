@@ -37,7 +37,7 @@ body {
     margin: 5px;
 }
 
-.lp{
+.lp {
     display: flex;
     gap: 1rem;
 }
@@ -102,15 +102,18 @@ body {
 .login {
     padding: 0 5px;
 }
-.loginp{
+
+.loginp {
     display: flex;
     align-items: center;
 }
-.loginp img{
+
+.loginp img {
     padding: 5px;
 }
-.carrinho{
-   padding: 15px; 
+
+.carrinho {
+    padding: 15px;
 }
 
 .cabecalho p {
@@ -120,15 +123,15 @@ body {
 }
 
 /*Começo da NavBar*/
-.navbar{
+.navbar {
     width: 100%;
     height: 60px;
     background-color: #2C213F;
 }
 
-    
 
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,25 +141,28 @@ body {
     gap: 5rem;
     font-size: 20px;
 }
-#lança{
+
+#lança {
     color: #B3FB06;
-    font-size: 24px;  
+    font-size: 24px;
 }
-.container p:hover{
+
+.container p:hover {
     font-size: 22px;
     transition: .1.5s;
     cursor: pointer;
 }
-.container p{
+
+.container p {
     width: 80px;
 }
-#lança:hover{
+
+#lança:hover {
     font-size: 25px;
     transition: .1.5s;
     cursor: pointer;
-    
-}
 
+}
 
 /* fim header */
 
@@ -267,6 +273,56 @@ body {
 
 /* fim banner */
 
+/* inicio main */
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #D9D9D9;
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+}
+.card button{
+    background-color: #B3FB06;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #2C213F;
+    gap: 1rem;
+    height: 40px;
+}
+.card h2{
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    gap: 1em;
+}
+.card img{
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* fim main */
+
 
 
 /* Inicio footer */
@@ -282,7 +338,6 @@ footer {
 
 button {
     background-color: #B3FB06;
-    /* Green */
     border: none;
     color: white;
     padding: 10px;
